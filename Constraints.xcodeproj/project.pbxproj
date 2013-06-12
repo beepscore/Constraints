@@ -23,6 +23,7 @@
 		DE7AAC5E1768B68100F9DCD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7AAC391768B68100F9DCD7 /* Foundation.framework */; };
 		DE7AAC661768B68100F9DCD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAC641768B68100F9DCD7 /* InfoPlist.strings */; };
 		DE7AAC691768B68100F9DCD7 /* ConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AAC681768B68100F9DCD7 /* ConstraintsTests.m */; };
+		DE7AAC751768B72400F9DCD7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAC741768B72400F9DCD7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		DE7AAC651768B68100F9DCD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE7AAC671768B68100F9DCD7 /* ConstraintsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstraintsTests.h; sourceTree = "<group>"; };
 		DE7AAC681768B68100F9DCD7 /* ConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstraintsTests.m; sourceTree = "<group>"; };
+		DE7AAC741768B72400F9DCD7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		DE7AAC2B1768B68000F9DCD7 = {
 			isa = PBXGroup;
 			children = (
+				DE7AAC741768B72400F9DCD7 /* README.md */,
 				DE7AAC3D1768B68100F9DCD7 /* Constraints */,
 				DE7AAC611768B68100F9DCD7 /* ConstraintsTests */,
 				DE7AAC361768B68000F9DCD7 /* Frameworks */,
@@ -236,6 +239,7 @@
 				DE7AAC4C1768B68100F9DCD7 /* Default@2x.png in Resources */,
 				DE7AAC4E1768B68100F9DCD7 /* Default-568h@2x.png in Resources */,
 				DE7AAC541768B68100F9DCD7 /* ViewController.xib in Resources */,
+				DE7AAC751768B72400F9DCD7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,7 @@
 				DE7AAC6E1768B68100F9DCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE7AAC6F1768B68100F9DCD7 /* Build configuration list for PBXNativeTarget "ConstraintsTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +466,7 @@
 				DE7AAC711768B68100F9DCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
