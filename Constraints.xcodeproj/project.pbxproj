@@ -24,6 +24,10 @@
 		DE7AAC661768B68100F9DCD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAC641768B68100F9DCD7 /* InfoPlist.strings */; };
 		DE7AAC691768B68100F9DCD7 /* ConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AAC681768B68100F9DCD7 /* ConstraintsTests.m */; };
 		DE7AAC751768B72400F9DCD7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAC741768B72400F9DCD7 /* README.md */; };
+		DEA958A41768E88900208CA2 /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA958A01768E88900208CA2 /* Brad Cox.png */; };
+		DEA958A51768E88900208CA2 /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA958A11768E88900208CA2 /* Dennis Ritchie.png */; };
+		DEA958A61768E88900208CA2 /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA958A21768E88900208CA2 /* Matthijs.png */; };
+		DEA958A71768E88900208CA2 /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA958A31768E88900208CA2 /* Ray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		DE7AAC671768B68100F9DCD7 /* ConstraintsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstraintsTests.h; sourceTree = "<group>"; };
 		DE7AAC681768B68100F9DCD7 /* ConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstraintsTests.m; sourceTree = "<group>"; };
 		DE7AAC741768B72400F9DCD7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DEA958A01768E88900208CA2 /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brad Cox.png"; sourceTree = "<group>"; };
+		DEA958A11768E88900208CA2 /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dennis Ritchie.png"; sourceTree = "<group>"; };
+		DEA958A21768E88900208CA2 /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matthijs.png; sourceTree = "<group>"; };
+		DEA958A31768E88900208CA2 /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 				DE7AAC4F1768B68100F9DCD7 /* ViewController.h */,
 				DE7AAC501768B68100F9DCD7 /* ViewController.m */,
 				DE7AAC521768B68100F9DCD7 /* ViewController.xib */,
+				DEA9589F1768E88900208CA2 /* Images */,
 				DE7AAC3E1768B68100F9DCD7 /* Supporting Files */,
 			);
 			path = Constraints;
@@ -161,6 +170,17 @@
 				DE7AAC641768B68100F9DCD7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA9589F1768E88900208CA2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DEA958A01768E88900208CA2 /* Brad Cox.png */,
+				DEA958A11768E88900208CA2 /* Dennis Ritchie.png */,
+				DEA958A21768E88900208CA2 /* Matthijs.png */,
+				DEA958A31768E88900208CA2 /* Ray.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +260,10 @@
 				DE7AAC4E1768B68100F9DCD7 /* Default-568h@2x.png in Resources */,
 				DE7AAC541768B68100F9DCD7 /* ViewController.xib in Resources */,
 				DE7AAC751768B72400F9DCD7 /* README.md in Resources */,
+				DEA958A41768E88900208CA2 /* Brad Cox.png in Resources */,
+				DEA958A51768E88900208CA2 /* Dennis Ritchie.png in Resources */,
+				DEA958A61768E88900208CA2 /* Matthijs.png in Resources */,
+				DEA958A71768E88900208CA2 /* Ray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
